@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>Registration</servlet-name>
+		<servlet-class>com.app.Registration</servlet-class>
+	</servlet>
+	
+<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.app.Login</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>com.app.Delete</servlet-class>
+	</servlet>
+	
+		
+	<servlet>
+		<servlet-name>Name</servlet-name>
+		<servlet-class>com.app.Name</servlet-class>
+	</servlet>
+	
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.app.Logout</servlet-class>
+	</servlet>
+	
+		<servlet>
+		<servlet-name>Password</servlet-name>
+		<servlet-class>com.app.Password</servlet-class>
+	</servlet>
+			<servlet>
+	
+		<servlet-name>Addremainder</servlet-name>
+		<servlet-class>com.app.Addremainder</servlet-class>
+	</servlet>
+	
+	
+		<servlet>
+		<servlet-name>Viewremainder</servlet-name>
+		<servlet-class>com.app.Viewremainder</servlet-class>
+	</servlet>
+	
+		<servlet>
+		<servlet-name>Deleteremainder</servlet-name>
+		<servlet-class>com.app.Deleteremainder</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>Deleteremainder</servlet-name>
+		<url-pattern>/Deleteremainder</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	
+		<servlet-mapping>
+		<servlet-name>Viewremainder</servlet-name>
+		<url-pattern>/Viewremainder</url-pattern>
+	</servlet-mapping>	
+		
+	
+	<servlet-mapping>
+		<servlet-name>Addremainder</servlet-name>
+		<url-pattern>/Addremainder</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>Password</servlet-name>
+		<url-pattern>/Password</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>	
+
+	
+	
+	<servlet-mapping>
+		<servlet-name>Name</servlet-name>
+		<url-pattern>/Name</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>	
+	<servlet-mapping>
+		<servlet-name>Registration</servlet-name>
+		<url-pattern>/Registration</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>	
+	
+</web-app>
